@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit this text area to see live preview to the right -->
+<svg width="144" height="500" xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+
+
+  <svg x="0" y="0">
+    <rect 
+          width="72" height="500"
+          style="
+            fill:#f1f1f1;
+            stroke: #cccccc;"/>
+  </svg>
+  <svg x="72" y="0">
+    <rect
+      width="72" height="500"
+      style="
+        fill:#ccc;
+        stroke: #cccccc;
+      "/>
+  </svg>
+
+
+</svg>
+ 

@@ -1,0 +1,136 @@
+<svg height="140" width="420">
+  <defs>
+    <style type="text/css">@import url(http://fonts.googleapis.com/css?family=Shrikhand);</style>
+  </defs>
+  <!-- 1 -->  
+  <svg height="70" width="70" y="0" x="70">
+    <circle r="35" cx="35" cy="35"  style="
+      fill:#e192c7;
+    "/>
+    <text x="20" y="55"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#f2cee6;
+      ">
+      1
+    </text>
+  </svg>    
+  <!-- 2 -->  
+  <svg height="70" width="70" x="140"  y="0">
+    <circle r="35" cx="35" cy="35"  style="
+      fill:#f09189;
+    "/>
+    <text x="12" y="56"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#f9d0cd;
+      ">
+      2
+    </text>
+  </svg>
+  <!-- 3 -->  
+  <svg height="70" width="70"  x="210"  y="0">
+    <circle r="35" cx="35" cy="35" style="
+      fill:#cca563;
+    "/>
+    <text x="9" y="55"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#dfc69d;
+      ">
+      3
+    </text>
+  </svg>
+  <!-- 4 -->  
+  <svg height="70" width="70" x="280"  y="0">
+    <circle  r="35" cx="35" cy="35" style="
+      fill:#8cb774;
+    "/>
+    <text x="8" y="55"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#b6d1a6;
+        ">
+      4
+    </text>
+  </svg>
+  <!-- 5 -->  
+  <svg height="70" width="70"  x="350" y="">
+    <circle  r="35" cx="35" cy="35" style="
+      fill:#32beaf;
+      "/>
+    <text x="10" y="55"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#66d7cb;
+      ">
+      5
+    </text>
+  </svg>
+  <!-- 6 -->  
+  <svg height="70" width="70"  x="0" y ="70">
+    <circle  r="35" cx="35" cy="35"  style="
+      fill:#15b9e6;
+    "/>
+    <text x="9" y="56"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#58cff0;
+      ">
+      6
+    </text>
+  </svg>
+
+  <!-- 7 -->  
+  <svg height="70" width="70"  x="70" y ="70">
+    <circle  r="35" cx="35" cy="35"  style="
+      fill:#97a8f0;
+    "/>
+    <text x="10" y="55"
+      style="
+        font-family:Shrikhand;
+        font-size:65px;
+        fill:#dae0fa;
+      ">
+      7
+    </text>
+  </svg>
+
+  <!-- + -->  
+  <svg height="70" width="70"  x="140" y ="70">
+    <circle  r="35" cx="35" cy="35"  style="
+      fill:#708090;
+      "/>
+    <text x="20" y="50"
+      style="
+        font-family:Shrikhand;
+        font-size:45px;
+        fill:#9ba6b1;
+        ">
+      +
+    </text>
+  </svg>
+
+  <!-- ++ -->  
+  <svg height="70" width="70"  x="210" y ="70">
+    <circle  r="35" cx="35" cy="35"  style="
+      fill:#2f4f4f;
+    "/>
+    <text x="6" y="50"
+      style="
+        font-family:Shrikhand;
+        font-size:45px;
+        fill:#4c7f7f;
+        ">
+      ++
+    </text>
+  </svg>
+
+
+</svg>

@@ -1,0 +1,43 @@
+<svg height="75" width="500">
+  <defs>
+    <style type="text/css">@import url(http://fonts.googleapis.com/css?family=Shrikhand);</style>
+  </defs>
+  <svg>
+    <rect
+      width="250" height="75"
+      style="
+        fill: #708090;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="55" y="45"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      new game
+    </text>
+    
+  </svg>
+  <svg x="250">
+    <rect
+      width="250" height="75"
+      style="
+        fill: #2F4F4F;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="55" y="45"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      new game
+    </text>
+    
+  </svg>
+ 
+
+</svg>
