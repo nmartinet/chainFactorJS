@@ -176,10 +176,9 @@ class Board {
         let {x, y} = newTile.calculateGridCoord({row: row, col: col})
 
         let dropAnim = new Anim()
-          .game(this.game)
           .tween({to: {alpha: 1}, length: 250,  easing: Phaser.Easing.Sinusoidal.In})
           .tween({to: {y : y},    length: 700,  easing: Phaser.Easing.Bounce.Out  })
-          .then( ({target}) => {
+          .then( (target) => {
             let tile = target[0];
             this.tiles[tile.col].push(tile);
             tile.updateCoordinates();
@@ -205,14 +204,15 @@ class Board {
     let l = 175
 
     let anim = new Anim()
-      .game(this.game)
       .target(flaggedTiles)
       .g()
         .tween({to: {scale: {x: 1.5, y: 1.5}}, length: l, easing: Phaser.Easing.Sinusoidal.Out})
+        .staggerItems(150)
       .g()
         .tween({to: {alpha: 0}, length: l, easing: Phaser.Easing.Sinusoidal.In})
         .tween({to: {scale: {x: 0.5, y: 0.5}}, length: l, easing: Phaser.Easing.Sinusoidal.Out})
-      .then( ({target}) => {
+        .staggerItems(150)
+      .then( (target) => {
         target.forEach( (tile) => {
           let {row, col} = tile;
           tile.destroy();
@@ -236,7 +236,6 @@ class Board {
     })
 
     let moveAnim = new Anim()
-      .game(this.game)
       .tween({
         to: (target) => { return {y: target.newY}},
         length: 500, 
