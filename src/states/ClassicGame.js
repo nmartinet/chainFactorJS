@@ -54,12 +54,12 @@ class ClassicGame extends Phaser.State{
 
     this.levelManager.onEvent({event: "nextTileChange", callback: ({tile}) => {
       let l = 200;
+      
       let anim = new Anim()
-        .game(this.game)
         .g()
           .tween({to: {alpha: 0}, length: l, easing: Phaser.Easing.Sinusoidal.In})
           .tween({to: {scale: {x: 0, y: 0}}, length: l, easing: Phaser.Easing.Sinusoidal.Out})
-          .then( ({target}) => {
+          .then( (target) => {
             let t = target[0];
             t.updateValue(tile);
             t.refresh();
@@ -132,11 +132,7 @@ class ClassicGame extends Phaser.State{
   }
 
   startNewGame(){
-    this.lossGroup.children.forEach((child) => child.kill());
-    this.tileGroup.children.forEach((child) => child.kill());
-    this.Board.clear();
-
-    this.createLevel();
+    this.state.start("ClassicGame");
   }
 
   onLoss(){
