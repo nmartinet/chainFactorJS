@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack --config webpack.prod.config.js",
-    "test": "standard"
+    "test": "standard",
+    "svg-to-png": "node ./tools/renderSVG.js"
   },
   "author": "",
   "license": "ISC",

@@ -25,6 +25,7 @@ class LevelManager {
     this.trigger("scoreChange", {score: this.score});
     this.trigger("levelTextChange", {level: this.currentLevel});
     this.trigger("nextTileChange", {tile: this.nextTile});
+    this.trigger("movesToLevelUp", {moves: this.toLevelUp});
   }
 
   onEvent({event, callback}){

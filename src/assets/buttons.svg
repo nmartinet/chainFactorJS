@@ -1,6 +1,7 @@
-<svg height="75" width="500">
+<svg height="225" width="500">
   <defs>
     <style type="text/css">@import url(http://fonts.googleapis.com/css?family=Shrikhand);</style>
+ 
   </defs>
   <svg>
     <rect
@@ -10,7 +11,7 @@
         stroke-width:2;
         stroke:#fefefe;
       "/>
-    <text x="55" y="45"
+    <text x="125" y="45" text-anchor="middle"
       style="
         font-family:Shrikhand;
         font-size:25px;
@@ -28,7 +29,7 @@
         stroke-width:2;
         stroke:#fefefe;
       "/>
-    <text x="55" y="45"
+    <text x="125" y="45" text-anchor="middle"
       style="
         font-family:Shrikhand;
         font-size:25px;
@@ -38,6 +39,80 @@
     </text>
     
   </svg>
+
+  <svg x="0" y="75">
+    <rect
+      width="250" height="75"
+      style="
+        fill: #708090;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="125" y="45" text-anchor="middle"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      classic
+    </text>
+    
+  </svg>
+  <svg x="250" y="75">
+    <rect
+      width="250" height="75"
+      style="
+        fill: #2F4F4F;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="125" y="45" text-anchor="middle"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      classic
+    </text>
+  </svg>
+
+  <svg x="0" y="150">
+    <rect
+      width="250" height="75"
+      style="
+        fill: #708090;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="125" y="45" text-anchor="middle"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      powers
+    </text>
+    
+  </svg>
+  <svg x="250" y="150">
+    <rect
+      width="250" height="75"
+      style="
+        fill: #2F4F4F;
+        stroke-width:2;
+        stroke:#fefefe;
+      "/>
+    <text x="125" y="45" text-anchor="middle"
+      style="
+        font-family:Shrikhand;
+        font-size:25px;
+        fill:#fefefe;
+      ">
+      powers
+    </text>
+  </svg>
+
+
  
 
 </svg>
