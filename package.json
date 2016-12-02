@@ -6,12 +6,13 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack --config webpack.prod.config.js",
-    "test": "standard"
+    "test": "standard",
+    "svg-to-png": "node ./tools/renderSVG.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "phaser": "^2.6.2"
+    "phaser": "^2.6.2",
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
